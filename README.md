@@ -1,4 +1,5 @@
 # DevOps Project
+![CI Pipeline](https://github.com/Muhammad-Amir0/DevOps-Project/actions/workflows/ci.yml/badge.svg)
 
 A Dockerized Flask web application with automated testing, code quality checks, and a CI pipeline using GitHub Actions.
 
