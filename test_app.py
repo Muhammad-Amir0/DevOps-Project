@@ -13,7 +13,7 @@ def client():
 def test_home(client):
     response = client.get("/")
     assert response.status_code == 200
-    assert response.data == b"Hello from DevOps CI/CD Pipeline!"
+    assert response.data == b"Hello from DevOps CI/CD Pipeline - Version2!"
 
 
 def test_health(client):
